@@ -1,0 +1,40 @@
+print-params=true
+
+#this is a comment (it starts with #)
+# main.params
+#
+# default set of parameters for the Kibera simulation
+#
+# $Id: main.params 02 201-02-20 0Z bpint$
+
+
+##  Global Parameters
+#################################
+numResidents = 117500
+preferenceforLivingNearLikeNeighbors = 0.5
+neighborhood = 1
+schoolVision = 35
+employmentVision = 70
+threshold = 3
+schoolCapacity = 176.25
+formalBusinessCapacity = 14.1
+informalBusinessCapacity = 4.7
+probabilityOfLosingEmployment = 0.01
+energyRateOfChange = 50.0
+aggressionThreshold = 0.6
+aggressionRate = 0.6
+uniformAggressionRate = true
+runFullDay = false
+minutesInDay = 1020
+timeOfFirstActivity = 300
+opinionThreshold = 0.1
+numResidentsHearRumor = 235
+proportionInitialResidentsRebel = .025
+timeNewRumor = 28560
+numResidentsHearNewRumor = 235
+numResidentsSpreadRumorTo = 1
+propogateNewRumor = false
+continueToPropogateOriginalRumor = true
+remainRebel = true
+remainRebelAfterNewRumor = true
+otherBasicCosts = 0
